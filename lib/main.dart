@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:twitter_clone/features/auth/view/login_view.dart';
+import 'package:twitter_clone/features/auth/view/signup_view.dart';
 import 'package:twitter_clone/theme/theme.dart';
 
 void main() {
@@ -13,6 +13,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo', theme: AppTheme.theme, home: const LoginView());
+        title: 'Flutter Demo', theme: AppTheme.theme, home: const SignUpView());
   }
 }
